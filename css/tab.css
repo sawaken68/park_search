@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.map_tabs{
+  width:760px;
+  height: 560px;
+  position: relative;
+}
+
+.tab_item{
+  position:relative;
+  width: 174px;
+  height: 54px;
+  background-color: #FFDFB9;
+  line-height: 54px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  float: left;
+  font-weight: bold;
+  /* transition: all 0.2s ease; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.tab_item:hover{
+  opacity: 0.75;
+}
+
+input[name="tab_item"]{
+  display: none;
+}
+
+.tab_content{
+  display: none;
+  clear: both;
+  overflow: hidden;
+}
+
+#in_23wards:checked ~ .in_23wards_content,
+#out_23wards:checked ~ .out_23wards_content,
+#near_tokyo:checked ~ .near_tokyo_content{
+  display: block;
+  border: none;
+}
+
+.map_tabs input:checked + .tab_item{
+  background-color: #FFB800;
+}

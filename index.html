@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/top.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" href="./colorbox/design2/colorbox.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="./colorbox/jquery.colorbox-min.js"></script>
+  <script type="text/javascript" src="./colorbox/jquery.colorbox-ja.js"></script>
+  <script type="text/javascript" src="./js/modal.js"></script>
+  <title>公園検索</title>
+</head>
+
+<body>
+  <main>
+    <div class="main_image">
+      <div class="poti">
+        <h1><span class="m_msg mgb_20">子供が思いっきり遊べる公園を検索！</span></h1>
+        <h2><span class="s_msg">「遊びに行って良かった！」と評判の良い子供向けの公園を見つけよう</span></h2>
+      </div>
+
+      <section class="top_container_1">
+        <div class="box">
+          <a class="iframe layout" href="./search_form.html" >
+            <div class="border_color park_layout">
+              <img class="icon_parm" src="./images/park_icon.png">
+              <span class="icon_text">公園の特徴で検索</span>
+              <span class="triangle_1">▼</span>
+            </div>
+          </a>
+          <a class="iframe layout" href="#">
+            <div class="border_color map_layout">
+              <img class="icon_parm" src="./images/map_icon.png">
+              <span class="icon_text">地図で検索</span>
+              <span class="triangle_2">▼</span>
+            </div>
+          </a>
+        </div>
+        <div class="park_search_container">
+          <p class="park_search_text">公園名で検索</p>
+          <form class="park_search_form">
+            <input class="parkname_search" type="text" name="parkname_search" placeholder="例：日比谷公園" onfocus="this.placeholder=''" onblur="this.placeholder = '例：日比谷公園'">
+            <input class="park_search_icon" type="submit" value="検索">
+          </form>
+        </div>
+      </section>
+      <article class="article_recommend">
+
+      </article>
+    </div>
+  </main>
+
+</body>
+</html>

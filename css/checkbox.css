@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* チェックボックススタイル */
+input[type=checkbox]{
+  display: none;
+}
+
+input[type="checkbox"]:checked + label {
+  background: rgba(240,144,0,0.4);/* マウス選択時の背景色を指定する */
+  color: #000000; /* マウス選択時のフォント色を指定する */
+}
+
+.label:hover {
+  background-color: #E2E1E1; /* マウスオーバー時の背景色を指定する */
+}
+
+.label {
+  display: block; /* ブロックレベル要素化する */
+  float: left; /* 要素の左寄せ・回り込を指定する */
+  margin: 2px 10px 8px 0px; /* ラベル外側の余白を指定する */
+  width: 160px; /* ラベルの横幅を指定する */
+  height: 64px; /* ラベルの高さを指定する */
+  text-align: center; /* テキストのセンタリングを指定する */
+  font-size: 16px;
+  line-height: 63px; /* 行の高さを指定する */
+  padding-left: 3px; /* ラベル内左側の余白を指定する */
+  padding-right: 3px; /* ラベル内右側の余白を指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  color: #000000; /* フォントの色を指定 */
+  border: 2px solid rgba(240,144,0,0.4);/* ラベルの境界線を実線で指定する */
+  border-radius: 8px; /* 角丸を指定する */
+}

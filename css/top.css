@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/* main_image */
+.main_image {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/Top_backgroud.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+/* message position */
+.poti{
+  height:100px;
+  top:180px;
+  position: relative;
+  text-align: center;
+}
+
+/* main massage */
+.m_msg{
+  font-weight: bold;
+  font-size: 48px;
+}
+
+/* sub massage */
+.s_msg{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.top_container_1{
+  width: 100%;
+  height: 180px;
+  position:relative;
+  top: 200px;
+}
+
+/* box */
+.box{
+  display: flex;
+  justify-content: space-around;
+  width: 760px;
+  height: 80px;
+  position: relative;
+  margin: auto;
+}
+
+.park_layout{
+  border-style: solid;
+  border-radius: 8px 0px 0px 8px;
+  width: 380px;
+}
+
+.map_layout{
+  border-style: solid;
+  border-left: none;
+  border-radius: 0px 8px 8px 0px;
+  width: 380px;
+}
+
+/* icon */
+.icon_parm{
+  width: 66px;
+  height: 56px;
+  vertical-align: middle;
+  padding: 10px 10px 10px 20px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.icon_text{
+  font-size: 24px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  opacity: 0.3;
+}
+
+.triangle_1{
+  font-size: 30px;
+  color: rgba(240,144,0,0.4);
+  position: relative;
+  top: 5px;
+  left: 30px;
+}
+
+.triangle_2{
+  font-size: 30px;
+  color: rgba(240,144,0,0.4);
+  position: relative;
+  top: 5px;
+  left: 100px;
+}
+
+.layout{
+  text-decoration: none;
+  color: black;
+}
+
+.layout:hover{
+  background-color: rgba(184,181,178,0.1);
+}
+
+.park_search_container{
+  justify-content: space-around;
+  width: 760px;
+  height: 120px;
+  position: relative;
+  margin: auto;
+}
+
+.park_search_text{
+  font-size: 24px;
+  width: 180px;
+  height: 30px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.park_search_form{
+  position: relative;
+  width: 760px;
+  height: 54px;
+}
+
+.parkname_search{
+  position: relative;
+  width: 760px;
+  height: 52px;
+  border:1px solid #333;
+  border-radius: 8px;
+}
+
+.park_search_icon{
+  background: url(../images/search_icon.png) no-repeat ;
+  background-size: 40px 40px;
+  margin-left:710px;
+  top: -45px;
+  border:0;
+  width:40px;
+  height:40px;
+  text-indent:-7777px;
+  position: relative;
+  display:block;
+}
+
+.parkname_search::placeholder{
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 5px;
+  text-indent: 10px;
+}
+
+.parkname_search:focus{
+  font-size: 24px;
+  outline: 0;
+  text-indent: 10px;
+}
+
+.park_search_icon:hover{
+  cursor: pointer;
+}
+
+.park_search_icon:focus{
+  outline: 0;
+}

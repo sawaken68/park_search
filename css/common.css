@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* common */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic proN", "メイリオ", "san-serif";
+  color: #555555;
+  line-height: 1.5;
+}
+
+.mgt_20{
+  margin-top: 20px;
+}
+
+.mgb_20{
+  margin-bottom: 20px;
+}
+
+.border_color{
+  border-color: rgba(240,144,0,0.4);
+}
