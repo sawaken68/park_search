@@ -9,6 +9,7 @@
   background-position: center center;
   background-size: 100% 100%;
   object-fit: cover;
+  position: static;
 }
 
 /* message position */
@@ -22,7 +23,7 @@
 /* main massage */
 .m_msg{
   font-weight: bold;
-  font-size: 48px;
+  font-size: 140%;
 }
 
 /* sub massage */
@@ -107,7 +108,7 @@
 .park_search_container{
   justify-content: space-around;
   width: 760px;
-  height: 120px;
+  height: 100px;
   position: relative;
   margin: auto;
 }
@@ -116,18 +117,15 @@
   font-size: 24px;
   width: 180px;
   height: 30px;
-  position: relative;
   margin-top: 10px;
 }
 
 .park_search_form{
-  position: relative;
   width: 760px;
   height: 54px;
 }
 
 .parkname_search{
-  position: relative;
   width: 760px;
   height: 52px;
   border:1px solid #333;
@@ -167,4 +165,84 @@
 
 .park_search_icon:focus{
   outline: 0;
+}
+
+.article_recommend{
+  width: 100%;
+  height: 360px;
+  position: relative;
+  top: 220px;
+}
+
+.recommend_header{
+  font-size: 20px;
+  width: 300px;
+  line-height: 30px;
+  margin-left: 4%;
+}
+
+.ranking_container{
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ranking_box{
+  width: 510px;
+  height: 320px;
+  position: relative;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ranking_top1{
+  width: 500px;
+  height: 270px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking_top1 h1{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.top1_info{
+  width: 510px
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top1_name{
+  width: 130px;
+}
+
+.top1_review{
+  width: 130px;
+  margin-left: 20px;
+}
+
+.top1_place{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.ranking_top2{
+  width: 460px;
+  background: #FAFAFA;
+  border: solid;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding-top: 1px;
 }
